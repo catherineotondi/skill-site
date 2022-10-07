@@ -3,11 +3,15 @@ import NavBar from './NavBar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NewSite from './NewSite';
 import CompanySite from './CompanySite';
+import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
 
 function App() {
  
   return (
+  
     <Router>
+        <AboutUs/>
       <div className="App">
         <NavBar />
         <div className='content'>
@@ -24,6 +28,7 @@ function App() {
          </Switch>
         </div>
       </div>
+      <ContactUs/>
     </Router>
  
   );

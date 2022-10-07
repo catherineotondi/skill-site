@@ -2,7 +2,7 @@ import SkillsitesList from "./SkillsitesList";
 import useFetch from "./UseFetch";
 
 const Home = () => {
-    const {data:skillsites,isLoading,error}=useFetch('http://localhost:3000/skillsite')
+    const {data:skillsites,isLoading,error}=useFetch(' http://localhost:8000/skillsite')
     
 
     return (

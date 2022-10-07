@@ -3,30 +3,61 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  background-color: rgb(189, 189, 148);
+}
+
+.contact{
+  text-align: center;
+  font-size: 15px;
+}
+
+.intro{
+  text-align: center;
+}
+
+address{
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .navbar {
-  padding: 20px;
+  margin: 0 auto;
+  padding: 18px;
   display: flex;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  width: 300px;
+ 
+
 }
-.navbar h1 {
-  color: #f1356d;
-}
+
 .navbar .links {
   margin-left: auto;
 }
 .navbar a {
-  margin-left: 16px;
+  background-color: #0e2210;
+  color: azure;
+  margin-left: 20px;
   text-decoration: none;
-  padding: 6px;
+  padding: 10px;
 }
 .navbar a:hover {
   color: #f1356d;
+}
+.company-site{
+  color: #140e6e;
+  font-size: 20px;
+}
+
+.company-site button{
+  color: #1de92e;
+  background-color: #333;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+.company-site button:hover{
+  background-color: aliceblue;
 }
 .content {
   max-width: 600px;
@@ -36,14 +67,14 @@
 .skillsite-preview{
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid rgb(106, 106, 211);
+  border-bottom: 1px solid rgb(1, 1, 15);
 }
 .skillsite-preview:hover{
   box-shadow: 1px 3px 5px pink;
 }
 .skillsite-preview h2{
   font-size: 20px;
-  color: #f1356d;
+  color: #3a272d;
   margin-bottom: 8px;
 }
 
@@ -52,18 +83,20 @@
 }
 
 .newSite{
-  max-width:400px;
+  max-width:300px;
   margin: auto;
   text-align: center;
 }
 .newSite label{
+  font-weight: bold;
   text-align: left;
   display: block;
+  
 }
 
 .newSite h2{
 font-size: 20px;
-color: #333;
+color: rgb(29, 16, 16);
 margin-bottom: 30px;
 }
 
@@ -71,14 +104,14 @@ margin-bottom: 30px;
 width: 100%;
 padding: 6px 10px;
 margin: 10px 0;
-border:1px solid chartreuse;
+border:1px solid rgb(68, 70, 67);
 display:block;
 box-sizing: border-box;
   }
 
   .newSite button{
-    background-color: aquamarine;
-    color: black;
+    background-color: rgb(10, 10, 10);
+    color: rgb(16, 190, 167);
     border: 0;
     padding:8px;
     border-radius: 8px;

@@ -4,10 +4,10 @@ import useFetch from "./UseFetch";
 
 const CompanySite = () => {
     const { id } = useParams();
-    const {data:skillsite, error, isLoading}=useFetch('  http://localhost:3000/skillsite/'+ id)
+    const {data:skillsite, error, isLoading}=useFetch('http://localhost:8000/skillsite/'+ id)
     const history = useHistory();
     const handleDeleteSiteSkill = () => {
-        fetch('http://localhost:3000/skillsite/' + skillsite.id, {
+        fetch( 'http://localhost:8000/skillsite/' + skillsite.id, {
             method:'DELETE'
         }).then(() => {
           history.push('/')  
