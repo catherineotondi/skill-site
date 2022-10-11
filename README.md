@@ -1,5 +1,5 @@
 
-#SKILL SITE WEB APPLICATION
+# SKILL SITE WEB APPLICATION
 
 This Web application targets recruiters  who create skill development availability especially to students who are looking for Jobs direct after University studies.Different companies provide details and information regarding their skills that they offer. 
 
